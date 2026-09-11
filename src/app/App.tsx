@@ -2,7 +2,6 @@ import { useRef } from "react";
 import React, { useState } from "react";
 import { Routes, Route, useNavigate } from 'react-router-dom';
 import { storeAuthSession } from '../features/auth/auth-session';
-import Card from "../components/showcase/Card";
 
 const API_URL = import.meta.env.VITE_API_URL ?? 'http://localhost:8787';
 
@@ -135,7 +134,6 @@ function App() {
                     </div>
                 </div>
             </section>
-            <Card />
             </>
             } />
 
